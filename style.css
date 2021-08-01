@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+:root {
+    --bg: rgb(89, 161, 89);
+    --color1: rgb(38, 163, 38);
+    --color2: rgb(43, 97, 33);
+    --color3: #fff;
+    --font: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: var(--font);
+    background-color: var(--bg);
+}
+
+#title {
+    color: var(--color3);
+    font-weight: bold;
+    font-size: 30pt;
+}
+
+.countdown {
+    display: flex;
+    background-color: var(--color1);
+    padding: 30px 35px;
+    border-radius: 10px;
+    
+}
+
+.countdown .clockDigit {
+    background-color: var(--color2);
+    color:var(--color3);
+    padding: 15px 18px;
+    margin: 20px;
+    font-size: 3em;
+    border-radius: 2px;
+    
+}
+
+.countdown .dots {
+    color: var(--color3);
+    margin: 25px 12px;
+    font-size: 3.2em;
+}
